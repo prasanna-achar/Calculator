@@ -73,9 +73,6 @@ document.querySelector("#deleteOne").addEventListener("click", () =>{
         if(operator == ""){
             num1 = num1.slice(0, -1);
             Display.value = `\n ${num1}`;
-        }else{
-            operator = "";
-            Display.value = `${num1}\n ${operator}`;
         }
     }else{
         num2 = num2.slice(0, -1);
